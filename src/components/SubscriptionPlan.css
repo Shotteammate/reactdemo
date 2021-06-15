@@ -4,3 +4,13 @@
     display: grid;
     grid-template-columns: 40% 60%;
 }
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: initial;
+    }
+}

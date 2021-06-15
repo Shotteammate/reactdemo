@@ -11,7 +11,7 @@
 }
 
 .plan-table {
-    width: 100%;
+    width: calc(100% - 6px);
     border-collapse: collapse;
 }
 
@@ -31,4 +31,11 @@ table tr td {
 
 .service-name {
     text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+    .details-container {
+        width: calc(100% - 6px);
+        padding: 0;
+    }
 }
