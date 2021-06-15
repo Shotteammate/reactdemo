@@ -25,4 +25,7 @@ JSON input example
    }
 ]`
 
+Features
+1. responsive application
+
 Enjoy!
